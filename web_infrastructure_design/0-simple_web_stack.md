@@ -9,6 +9,8 @@
   * [Simple web stack](#simple-web-stack)
       * [Specifics about this infrastructure](#specifics-about-this-infrastructure)
       * [Issues about this infrastructure](#issues-about-this-infrastructure)
+      * [Bibliography](#bibliography)
+      * [Tools](#tools)
 
 ## Introduction
 
@@ -119,3 +121,5 @@ Having only one server that hosts all the required components can lead to proble
 - https://ddi-dev.com/blog/programming/how-choose-technology-stack-web-application-development/
 - https://oa-angel26.medium.com/web-infrastructure-design-4634a2e1b27c
 
+### Tools:
+- https://app.diagrams.net/
