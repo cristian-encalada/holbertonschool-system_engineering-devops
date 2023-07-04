@@ -10,7 +10,7 @@
 
 ## Scale up
 
-The following is an improvement of the three server web infrastructure that hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored
+The following is an improvement of the three server web infrastructure in the sense of scalability, the infrastructure hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored
 
 <div align="center">
   <a href="https://holbertonschool.uy/">
@@ -20,7 +20,19 @@ The following is an improvement of the three server web infrastructure that host
 
 ### Specifics about this infrastructure
 
-- For every additional element, why you are adding it
+- __Explain why are you adding every additional element__
+
+The load balancer is configured as a cluster so that if one fails, the other balancer is still working.
+
+Servers containing a single component inside them were added (such as a web server, application server or database)
+
+### Issues about this infrastructure
+
+- `Increased Complexity`, because maintaining servers with individual components can be more complex and require additional effort.
+
+- `Resource Underutilization`, because if servers are dedicated to host a single component, it can result in resource underutilization. 
+
+- `Higher Costs` because having dedicated servers for each component can result in increased costs. Each server requires hardware and maintenance.
 
 ## Bibliography:
 

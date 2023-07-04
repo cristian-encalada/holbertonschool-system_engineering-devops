@@ -29,7 +29,7 @@ The structure of any good hamburger stays the same, no matter what `ingredients`
 ### Popular Technology Stacks
 Some of the more popular technology stacks are shown below:
 <div align="center">
-  <a href="https://holbertonschool.uy/">
+  <a>
     <img src="https://ddi-dev.com/uploads/media/news/0001/02/66911e46d98df8f6b13b1d0dee4b6f7d8ae18168.png" alt="tech_stacks">
   </a>
 
@@ -46,11 +46,11 @@ Linux based web servers consist of four software components.
 - __PHP/Python__: Sitting on the top is the fourth and final layer. The scripting layer consists of PHP and/or other similar web programming languages. Websites and Web Applications run within this layer.
 
 <div align="center">
-  <a href="https://holbertonschool.uy/">
+  <a>
     <img src="https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg" alt="lamp_layers">
   </a>
 
-__Source__: [https://www.liquidweb.com/](https://www.liquidweb.com/kb/what-is-a-lamp-stack/)
+__Image Source__: [https://www.liquidweb.com/](https://www.liquidweb.com/kb/what-is-a-lamp-stack/)
 </div>
 
 ## Simple web stack
@@ -58,7 +58,7 @@ A lot of websites are powered by simple web infrastructure, a lot of time it is 
 
 The following is a server web infrastructure that hosts the website that is reachable via `www.foobar.com`.
 <div align="center">
-  <a href="https://holbertonschool.uy/">
+  <a>
     <img src="0-simple_web_stack.jpg" alt="simple_web_stack">
   </a>
 </div>
@@ -68,6 +68,10 @@ The following is a server web infrastructure that hosts the website that is reac
 - __What is a server__
 
 A `server` is a piece of computer hardware or software that provides functionality for other programs or devices, called `clients`
+
+A server can be `physical` or `virtual`. A server runs an OS (operating system).
+
+The large fraction of computers operated by large internet companies—​like Facebook, Google, Microsoft, or Twitter—​are located in `data centers`. __Data centers__ are specifically designed to hold large numbers of computers.
 
 - __What is the role of the domain name__
 
@@ -89,7 +93,7 @@ A `web server` is a __software__ that delivers web pages. A `server` is an actua
 
 An application server hosts and manages web applications or services. A popular example of appication server is `Node.js`.
 
-An application server generates dynamic content.
+An __application server__ generates `dynamic content`.
 
 - __What is the role of the database__
 
