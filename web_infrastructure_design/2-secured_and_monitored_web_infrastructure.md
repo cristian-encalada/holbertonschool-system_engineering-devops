@@ -1,4 +1,4 @@
-# 1. Secured and monitored web infrastructure
+# 2. Secured and monitored web infrastructure
 
 ## Table of contents
 
@@ -20,6 +20,7 @@ The following is three server web infrastructure that hosts the website `www.foo
 
 ### Specifics about this infrastructure
 
+- For every additional element, why you are adding it
 - What are firewalls for
 - Why is the traffic served over HTTPS
 - What monitoring is used for
@@ -38,6 +39,7 @@ The following is three server web infrastructure that hosts the website `www.foo
 - https://cyberhoot.com/cybrary/secure-socket-layer-ssl/
 - https://www.netreo.com/blog/network-and-infrastructure-monitoring-is-every-tool-the-same/
 - https://levelup.gitconnected.com/system-design-interview-basics-difference-between-api-gateway-and-load-balancer-60260b568121
+- https://oa-angel26.medium.com/web-infrastructure-design-4634a2e1b27c
 
 ## Tools:
 - https://app.diagrams.net/
