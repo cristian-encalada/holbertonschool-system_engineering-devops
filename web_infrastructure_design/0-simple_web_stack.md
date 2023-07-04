@@ -1,5 +1,15 @@
 # 0. Simple web stack
 
+## Table of contents
+
+  * [Introduction](#introduction)
+    * [What is a Technology Stack?](#what-is-a-technology-stack)
+    * [Popular Technology Stacks](#popular-technology-stacks)
+    * [The Four Layers of a LAMP Stack](#the-four-layers-of-a-lamp-stack)
+  * [Simple web stack](#simple-web-stack)
+      * [Specifics about this infrastructure](#specifics-about-this-infrastructure)
+      * [Issues about this infrastructure](#issues-about-this-infrastructure)
+
 ## Introduction
 
 ###  What is a Technology Stack?
@@ -16,36 +26,40 @@ The structure of any good hamburger stays the same, no matter what `ingredients`
 
 ### Popular Technology Stacks
 Some of the more popular technology stacks are shown below:
-  <a align="center" href="https://holbertonschool.uy/">
+<div align="center">
+  <a href="https://holbertonschool.uy/">
     <img src="https://ddi-dev.com/uploads/media/news/0001/02/66911e46d98df8f6b13b1d0dee4b6f7d8ae18168.png" alt="tech_stacks">
   </a>
 
 __Source__: [https://ddi-dev.com/blog/](https://ddi-dev.com/blog/programming/how-choose-technology-stack-web-application-development/)
-
+</div>
 
 ### The Four Layers of a LAMP Stack
 
 Linux based web servers consist of four software components.
 
 - __Linux__: The `operating system (OS)` is the first one. All other layers run on top of this layer.
-- __Apache__: The second layer consists of web server software, typically `Apache Web Server` doing functions like handling incoming requests, serving web pages, managing connections and sessions and logging and monitoring.
+- __Apache/Nginx__: The second layer consists of web server software, typically `Apache Web Server` doing functions like handling incoming requests, serving web pages, managing connections and sessions and logging and monitoring.
 - __MySQL__: Is the third layer where databases stand. MySQL stores and retrieves data. MySQL usually sits on top of the Linux layer alongside Apache/layer 2.
-- __PHP__: Sitting on the top is the fourth and final layer. The scripting layer consists of PHP and/or other similar web programming languages. Websites and Web Applications run within this layer.
+- __PHP/Python__: Sitting on the top is the fourth and final layer. The scripting layer consists of PHP and/or other similar web programming languages. Websites and Web Applications run within this layer.
 
-  <a align="center" href="https://holbertonschool.uy/">
+<div align="center">
+  <a href="https://holbertonschool.uy/">
     <img src="https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg" alt="lamp_layers">
   </a>
 
 __Source__: [https://www.liquidweb.com/](https://www.liquidweb.com/kb/what-is-a-lamp-stack/)
+</div>
 
 ## Simple web stack
 A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a [LAMP stack](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29)
 
 The following is a server web infrastructure that hosts the website that is reachable via `www.foobar.com`.
-
-  <a align="center" href="https://holbertonschool.uy/">
+<div align="center">
+  <a href="https://holbertonschool.uy/">
     <img src="0-simple_web_stack.jpg" alt="simple_web_stack">
   </a>
+</div>
 
 ### Specifics about this infrastructure
 
